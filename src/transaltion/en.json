@@ -1,0 +1,479 @@
+{
+	"noUser": "No user found",
+	"noData": "No Data found",
+	"serverError": "Somethings wents wrong! Please try again!",
+	"denied": "Access Denied",
+	"users": {
+		"login": "LogIn Successfully",
+		"wrongPassword": "Password is incorrect",
+		"mailNotVerified": "Email is not verified",
+		"phoneNotVerified": "Phone number not verified",
+		"mailAlready": "Email already registered",
+		"phoneAlready": "Phone number already registered",
+		"mailNotRegis": "Email is not registered",
+		"phoneNotRegis": "Phone number is not registered",
+		"sendOtp": "OTP sent to your registered mail",
+		"sendOtpPhone": "OTP sent to your registered phone number",
+		"otpNotMatch": "OTP not matched",
+		"otpExp": "OTP expired!",
+		"incorrectCurrentPass": "Current password is incorrect",
+		"changPassword": "Password change successfully",
+		"passwordUpdate": "Password update Successfully",
+		"userCreate": "User created successfully",
+		"userUpdate": "User update successfully",
+		"deleteUser": "User deleted successfully",
+		"inActive": "User Inactive successfully",
+		"active": "User Active successfully",
+		"notMailOrPhone": "Email or phone number required",
+		"passwordReset": "users.passwordReset"
+	},
+	"departments": {
+		"departmentCreate": "Department created successfully",
+		"departmentUpdate": "Department update successfully",
+		"departmentdelete": "Department deleted successfully",
+		"inActive": "Department Inactive successfully",
+		"active": "Department Active successfully"
+	},
+	"roles": {
+		"roleCreate": "Role created successfully",
+		"roleUpdate": "Role update successfully",
+		"roledelete": "Role deleted successfully",
+		"inActive": "Role Inactive successfully",
+		"active": "Role Active successfully"
+	},
+	"medicineTypes": {
+		"create": "Medicine types created successfully",
+		"update": "Medicine types update successfully",
+		"delete": "Medicine types deleted successfully",
+		"inActive": "Medicine types Inactive successfully",
+		"active": "Medicine types Active successfully",
+		"statusUpdate": "status updated successfully"
+	},
+	"medicineDose": {
+		"create": "Medicine dose created successfully",
+		"update": "Medicine dose update successfully",
+		"delete": "Medicine dose deleted successfully",
+		"inActive": "Medicine dose Inactive successfully",
+		"active": "Medicine dose Active successfully",
+		"statusUpdate": "status updated successfully"
+	},
+	"medicineTypesValidation": {
+		"typeName": "Type name is required",
+		"unit": "Unit is required"
+	},
+	"medicineDoseValidation": {
+		"typeId": "Type is required",
+		"quantity": "Quantity is required"
+	},
+	"familys": {
+		"create": "Family created successfully",
+		"update": "Family update successfully",
+		"delete": "Family deleted successfully",
+		"inActive": "Family Inactive successfully",
+		"active": "Family Active successfully"
+	},
+	"dentists": {
+		"dentistCreate": "Dentists created successfully",
+		"dentistUpdate": "Dentists update successfully",
+		"dentistdelete": "Dentists deleted successfully",
+		"inActive": "Dentists Inactive successfully",
+		"active": "Dentists Active successfully",
+		"userType": "Please define user type"
+	},
+	"doctors": {
+		"doctorCreate": "Doctor created successfully",
+		"doctorUpdate": "Doctor update successfully",
+		"doctordelete": "Doctor deleted successfully",
+		"inActive": "Doctor Inactive successfully",
+		"active": "Doctor Active successfully",
+		"userType": "Please define user type"
+	},
+	"therapists": {
+		"therapistsCreate": "Therapists created successfully",
+		"therapistsUpdate": "Therapists update successfully",
+		"therapistsdelete": "Therapists deleted successfully",
+		"inActive": "Therapists Inactive successfully",
+		"active": "Therapists Active successfully",
+		"userType": "Please define user type"
+	},
+	"pathologists": {
+		"pathologyCreate": "Pathologist created successfully",
+		"pathologyUpdate": "Pathologist update successfully",
+		"pathologydelete": "Pathologist deleted successfully",
+		"inActive": "Pathologist Inactive successfully",
+		"active": "Pathologist Active successfully",
+		"userType": "Please define user type"
+	},
+	"managers": {
+		"managersCreate": "Manager created successfully",
+		"managersUpdate": "Manager update successfully",
+		"managersdelete": "Manager deleted successfully",
+		"inActive": "Manager Inactive successfully",
+		"active": "Manager Active successfully"
+	},
+	"patients": {
+		"signUP": "registered successfully and otp send to your registered mail",
+		"patientsCreate": "Patient created successfully",
+		"patientstUpdate": "Patient update successfully",
+		"patientsdelete": "Patient deleted successfully",
+		"inActive": "Patient Inactive successfully",
+		"active": "Patient Active successfully",
+		"deleteRequestSent": "Patient delete request sent successfully",
+		"patientNotFound": "Patient not found",
+		"incorrectPassword": "Incorrect password"
+	},
+	"locations": {
+		"locationsCreate": "Location created successfully",
+		"locationsUpdate": "Location update successfully",
+		"locationsdelete": "Location deleted successfully",
+		"inActive": "Location Inactive successfully",
+		"active": "Location Active successfully",
+		"assign": "Location assigned successfully"
+	},
+	"doctorProfiles": {
+		"doctorProfilesCreate": "Doctor profile created successfully",
+		"doctorProfilesUpdate": "Doctor profile update successfully",
+		"doctorProfilesdelete": "Doctor profile deleted successfully",
+		"inActive": "Doctor profile Inactive successfully",
+		"active": "Doctor profile Active successfully"
+	},
+	"bookings": {
+		"bookingsCreate": "Booking created successfully",
+		"bookingsNotAvl": "This doctor is not available",
+		"bookingsdelete": "Booking deleted successfully",
+		"bookingUpdate": "Booking reschedule successfully",
+		"alreadyCancle": "You have already cancel",
+		"cancleBooking": "Booking canceled successfully",
+		"bookingDateRequired": "Booking date is required.",
+		"cannotBookPast": "You cannot book an appointment in the past.",
+		"cannotBookPastTime": "You cannot book an appointment for a time that has already passed.",
+		"cannotApproveExpired": "You cannot approve an appointment whose date has already passed."
+	},
+	"shedulings": {
+		"shedulingsCreate": "Scheduling created successfully",
+		"shedulingsUpdate": "Scheduling update successfully",
+		"shedulingsdelete": "Scheduling deleted successfully",
+		"inActive": "Scheduling Inactive successfully",
+		"active": "Scheduling Active successfully"
+	},
+	"banners": {
+		"bannersCreate": "Banner created successfully",
+		"bannersUpdate": "Banner update successfully",
+		"bannersdelete": "Banner deleted successfully",
+		"inActive": "Banner Inactive successfully",
+		"active": "Banner Active successfully"
+	},
+	"supportTypes": {
+		"create": "support type created successfully",
+		"update": "support type update successfully",
+		"delete": "support type deleted successfully",
+		"inActive": "support type Inactive successfully",
+		"active": "support type Active successfully"
+	},
+	"wayToUses": {
+		"create": "Way To Use created successfully",
+		"update": "Way To Use update successfully",
+		"delete": "Way To Use deleted successfully",
+		"inActive": "Way To Use Inactive successfully",
+		"active": "Way To Use Active successfully"
+	},
+	"qualifications": {
+		"create": "Qualification created successfully",
+		"update": "Qualification update successfully",
+		"delete": "Qualification deleted successfully",
+		"inActive": "Qualification Inactive successfully",
+		"active": "Qualification Active successfully"
+	},
+	"likeandfavorite": {
+		"doctorReq": "Doctor id required"
+	},
+	"treatmentSteps": {
+		"treatmentStepsCreate": "Treatment step created successfully",
+		"treatmentStepsUpdate": "Treatment step update successfully",
+		"treatmentStepsdelete": "Treatment step deleted successfully",
+		"inActive": "Treatment step Inactive successfully",
+		"active": "Treatment step Active successfully"
+	},
+	"treatment": {
+		"create": "Treatment created successfully",
+		"alreadyCreate": "Treatment already created",
+		"end": "Treatment end successfully",
+		"update": "Treatment update successfully",
+		"delete": "Treatment deleted successfully",
+		"inActive": "Treatment Inactive successfully",
+		"active": "Treatment Active successfully"
+	},
+	"treatmentParameters": {
+		"treatmentParameterCreate": "Treatment parameter created successfully",
+		"treatmentParameterUpdate": "Treatment parameter  update successfully",
+		"treatmentParameterdelete": "Treatment parameter  deleted successfully",
+		"inActive": "Treatment parameter  Inactive successfully",
+		"active": "Treatment parameter  Active successfully"
+	},
+	"doctorpatients": {
+		"doctorpatientsCreate": "Doctor patient created successfully",
+		"doctorpatientsUpdate": "Doctor patient  update successfully",
+		"doctorpatientsdelete": "Doctor patient  deleted successfully",
+		"inActive": "Doctor patient Inactive successfully",
+		"active": "Doctor patient  Active successfully"
+	},
+	"userfactoken": {
+		"userfactokenCreate": "User factoken created successfully",
+		"userfactokenUpdate": "User factoken  update successfully",
+		"userfactokendelete": "User factoken  deleted successfully"
+	},
+	"questions": {
+		"questionCreate": "Questions created successfully",
+		"questionUpdate": "Questions  update successfully",
+		"questiondelete": "Questions deleted successfully",
+		"inActive": "Questions Inactive successfully",
+		"active": "Questions  Active successfully"
+	},
+	"specializations": {
+		"specializationCreate": "Specialization created successfully",
+		"specializationUpdate": "Specialization  update successfully",
+		"specializationdelete": "Specialization deleted successfully",
+		"inActive": "Specialization Inactive successfully",
+		"active": "Specialization  Active successfully"
+	},
+	"reviews": {
+		"reviewsCreate": "Reviews created successfully",
+		"reviewsUpdate": "Reviews  update successfully",
+		"reviewsdelete": "Reviews deleted successfully",
+		"inActive": "Reviews Inactive successfully",
+		"active": "Reviews  Active successfully"
+	},
+	"contactus": {
+		"create": "Contact created successfully",
+		"update": "Contact update successfully",
+		"deleted": "Contact deleted successfully",
+		"active": "Contact Active successfully",
+		"inActive": "Contact Inactive successfully"
+	},
+	"organizationRoles": {
+		"create": "Organization role created successfully",
+		"update": "Organization role update successfully",
+		"deleted": "Organization role deleted successfully",
+		"active": "Organization role Active successfully",
+		"inActive": "Organization role Inactive successfully"
+	},
+	"organizationRoleValidation": {
+		"roleName": "Role name is required "
+	},
+	"aboutus": {
+		"create": "About us created successfully",
+		"update": "About us update successfully",
+		"deleted": "About us deleted successfully",
+		"active": "About us Active successfully",
+		"inActive": "About us Inactive successfully",
+		"alreadyExists": "About us already exists"
+	},
+	"assignLocations": {
+		"create": "Assign location created successfully",
+		"update": "Assign location update successfully",
+		"deleted": "Assign location deleted successfully",
+		"active": "Assign location Active successfully",
+		"inActive": "Assign location Inactive successfully",
+		"notFound": "assignLocations.notFound"
+	},
+	"organizations": {
+		"create": "Organization created successfully",
+		"update": "Organization update successfully",
+		"deleted": "Organization deleted successfully",
+		"active": "Organization Active successfully",
+		"inActive": "Organization Inactive successfully"
+	},
+	"support": {
+		"create": "Support created successfully",
+		"update": "Support update successfully",
+		"deleted": "Support deleted successfully",
+		"active": "Support Active successfully",
+		"inActive": "Support Inactive successfully"
+	},
+	"refers": {
+		"create": "Refer created successfully",
+		"update": "Refer update successfully",
+		"deleted": "Refer deleted successfully",
+		"active": "Refer Active successfully",
+		"inActive": "Refer Inactive successfully"
+	},
+	"tests": {
+		"create": "Tests created successfully",
+		"update": "Tests update successfully",
+		"deleted": "Tests deleted successfully",
+		"active": "Tests Active successfully",
+		"inActive": "Tests Inactive successfully",
+		"delete": "tests.delete"
+	},
+	"testCategories": {
+		"create": "Test Category created successfully",
+		"update": "Test Category update successfully",
+		"deleted": "Test Category deleted successfully",
+		"active": "Test Category Active successfully",
+		"inActive": "Test Category Inactive successfully",
+		"duplicateForPathologist": "A test category with this name already exists for this pathologist.",
+		"nameRequired": "Category name is required."
+	},
+	"testTypes": {
+		"create": "Test Type created successfully",
+		"update": "Test Type update successfully",
+		"deleted": "Test Type deleted successfully",
+		"active": "Test Type Active successfully",
+		"inActive": "Test Type Inactive successfully",
+		"duplicate": "A test type with this name already exists.",
+		"nameRequired": "Test type name is required.",
+		"categoryRequired": "Category is required for this test type."
+	},
+	"testPrices": {
+		"create": "Test Price created successfully",
+		"update": "Test Price update successfully",
+		"delete": "Test Price deleted successfully",
+		"active": "Test Price Active successfully",
+		"inActive": "Test Price Inactive successfully"
+	},
+	"availabilities": {
+		"create": "Availability created successfully",
+		"update": "Availability update successfully",
+		"deleted": "Availability deleted successfully",
+		"active": "Availability Active successfully",
+		"inActive": "Availability Inactive successfully"
+	},
+	"testReports": {
+		"create": "Test report created successfully",
+		"update": "Test report update successfully",
+		"deleted": "Test report deleted successfully",
+		"active": "Test report Active successfully",
+		"inActive": "Test report Inactive successfully"
+	},
+	"please wait for finish all limit": "please wait for finish all limit",
+	"userLimit updated successfully ": "userLimit updated successfully ",
+	"No user found": "No user found",
+	"No time found of doctor sitting ": "No time found of doctor sitting ",
+	"Doctor is not available for Saturday": "Doctor is not available for Saturday",
+	"Booking is already completed for this date select other date": "Booking is already completed for this date select other date",
+	"you have already created your booking": "you have already created your booking",
+	"Booking is already completed of this date please select other date": "Booking is already completed of this date please select other date",
+	"Booking is already completed of this date 2024-03-27 please select other date": "Booking is already completed of this date 2024-03-27 please select other date",
+	"Doctor is not available for Thursday": "Doctor is not available for Thursday",
+	"Doctor is not available for Tuesday": "Doctor is not available for Tuesday",
+	"Booking is already completed of this date 2024-03-28 please select other date": "Booking is already completed of this date 2024-03-28 please select other date",
+	"Booking is already completed of this date 2024-06-28 please select other date": "Booking is already completed of this date 2024-06-28 please select other date",
+	"No time found of doctor sitting": "No time found of doctor sitting",
+	"Booking cancle successfully ": "Booking cancle successfully ",
+	"Booking Cancelled successfully ": "Booking Cancelled successfully ",
+	"Doctor is not available for Monday": "Doctor is not available for Monday",
+	"Doctor is not available for undefined": "Doctor is not available for undefined",
+	"Doctor is not available for Friday": "Doctor is not available for Friday",
+	"Organizations already created": "Organizations already created",
+	"Booking is already completed of this date 2024-03-29 please select other date": "Booking is already completed of this date 2024-03-29 please select other date",
+	"Booking is already completed of this date 2024-03-20 please select other date": "Booking is already completed of this date 2024-03-20 please select other date",
+	"Organizations permission status Approved successfully": "Organizations permission status Approved successfully",
+	"Your status is not Approved": "Your status is not Approved",
+	"Your status is not Approved, Please wait for Approval": "Your status is not Approved, Please wait for Approval",
+	"Staff id is not valid": "Staff id is not valid",
+	"Staff assign successfully": "Staff assign successfully",
+	"Staff un-assigned successfully": "Staff un-assigned successfully",
+	"Please firstly add location": "Please firstly add location",
+	"email is not registered": "email is not registered",
+	"Otp is required": "Otp is required",
+	"Otp not match": "Otp not match",
+	"Status  is Already Approved": "Status  is Already Approved",
+	"userFcmToken": {
+		"create": "User FcmToken Created Successfully",
+		"delete": "User FcmToken Deleted Successfully"
+	},
+	"Profile image updated successfully": "Profile image updated successfully",
+	"Organizations permission status Rejected successfully": "Organizations permission status Rejected successfully",
+	"pushNotification": {
+		"sentNotification": "pushNotification.sentNotification"
+	},
+	"countries": {
+		"countriesCreate": "Country created successfully",
+		"countriesUpdate": "Country updated successfully",
+		"updateCountriesStatus": "Country status update successfully",
+		"countriesDelete": "Country deleted successfully",
+		"countriesFound": "Country Found successfully",
+		"countriesNoFound": "Country Not Found successfully",
+		"countriesInActive": "Country Inactive successfully",
+		"countriesActive": "Country Active successfully"
+	},
+	"states": {
+		"statesCreate": "State created successfully",
+		"statesUpdate": "State updated successfully",
+		"statusUpdate": "status update successfully",
+		"updateStatesStatus": "state status update successfully",
+		"statesDelete": "State deleted successfully",
+		"statesNoDelete": "State Not deleted",
+		"statesFound": "State Found successfully",
+		"statesNoFound": "State Not Found successfully",
+		"statesInActive": "State Inactive successfully",
+		"statesActive": "State Active successfully"
+	},
+	"tickets": {
+		"create": "Ticket created successfully",
+		"update": "Ticket updated successfully",
+		"delete": "Ticket deleted successfully",
+		"active": "Ticket Active successfully",
+		"inActive": "Ticket Inactive successfully",
+		"statusUpdate": "Ticket status update successfully",
+		"open": "Ticket open successfully",
+		"closed": "Ticket closed successfully"
+	},
+	"ticketLogs": {
+		"create": "Ticket Log created successfully",
+		"update": "Ticket Log updated successfully",
+		"delete": "Ticket Log deleted successfully",
+		"active": "Ticket Log Active successfully",
+		"inActive": "Ticket Log Inactive successfully",
+		"statusUpdate": "Ticket Log status update successfully"
+	},
+	"disease": {
+		"create": "Disease created successfully",
+		"update": "Disease update successfully",
+		"delete": "Disease deleted successfully",
+		"inActive": "Disease Inactive successfully",
+		"active": "Disease Active successfully"
+	},
+	"diseaseValidation": {
+		"treatmentId": "Treatment is required"
+	},
+	"symptom": {
+		"create": "Symptom created successfully",
+		"update": "Symptom update successfully",
+		"delete": "Symptom deleted successfully",
+		"inActive": "Symptom Inactive successfully",
+		"active": "Symptom Active successfully"
+	},
+	"symptomValidation": {
+		"treatmentId": "Treatment is required"
+	},
+	"Compositions Active successfully": "Compositions Active successfully",
+	"Compositions Inactive successfully": "Compositions Inactive successfully",
+	"Patient can not change status to active": "Patient can not change status to active",
+	"Patient can only change their status": "Patient can only change their status",
+	"Patient can only change his status": "Patient can only change his status",
+	"Booking not found": "Booking not found",
+	"Not_approved": "Your account has not been approved by the admin. Please contact support for more information.",
+	"rejected": "Your account has been rejected by the admin. Please contact support for more information.",
+	"kyc_rejected": "Your account has been rejected because of the KYC related issue. Please contact support for more information.",
+	"certificates": {
+		"update": "certificates.update"
+	},
+	"patientReports": {
+		"create": "Patient report uploaded successfully.",
+		"update": "Patient report updated successfully.",
+		"delete": "Patient report deleted successfully.",
+		"titleRequired": "Title is required.",
+		"filesRequired": "At least one file is required.",
+		"familyMemberRequired": "Family member is required.",
+		"familyNotFound": "Family member not found."
+	},
+	"Access Denied": "Access Denied",
+	"You can not delete other patient data": "You can not delete other patient data",
+	"Access denied": "Access denied",
+	"Staff already assigned to this user": "Staff already assigned to this user",
+	"Booking Approved successfully ": "Booking Approved successfully ",
+	"No booking found": "No booking found",
+	"Delete request already sent": "Delete request already sent",
+	"Mail and phone number both are required": "Mail and phone number both are required"
+}
